@@ -181,6 +181,7 @@ img {
     margin: 0;
     padding-top: 30px;
     padding-bottom: 20px;
+    margin-bottom: 20px;
     border-bottom: 1px solid #d1d1d1;
     list-style: none;
 }
@@ -190,7 +191,7 @@ img {
     line-height: 21px;
     font-style: normal;
     text-decoration: none;
-    color: #7f7f7f
+    color: #7f7f7f;
 }
 .site-menu-link-frist {
     margin-right: 35px;
