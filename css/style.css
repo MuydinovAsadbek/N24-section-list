@@ -39,7 +39,6 @@
         border: 0;
         border-radius: 10px;
         font-family: "Rubik", "Arial", sans-serif;
-        font-size: 16px;
         font-weight: 500;
         text-decoration: none;
         align-items: center;
@@ -124,13 +123,11 @@
         margin-right: 25px;
     }
     .currency-rates-value {
-        font-size: 16px;
         line-height: 19px;
         font-weight: normal;
         color: #555;
     }
     .currency-rates-type {
-        font-size: 16px;
         line-height: 19px;
         color: #2959ce;
     }
@@ -292,7 +289,6 @@
         opacity: 0.6;
     }
     .article-card-text {
-        font-size: 16px;
         line-height: 22px;
         color: #4a4b4c;
     }
@@ -397,7 +393,6 @@
     .article-card-horizantal-text {
         margin-top: 0;
         margin-bottom: 15px;
-        font-size: 16px;
         line-height: 22px;
         color: #4a4b4c;
     }
@@ -554,7 +549,6 @@
     .input {
         padding: 18px 20px;
         border-radius: 10px;
-        font-size: 16px;
         line-height: 28px;
         color: #000;
         border: 1px solid rgba(0, 0, 0, 0.2);
@@ -588,7 +582,6 @@
         width: 100%;
         min-height: 180px;
         padding: 18px 20px;
-        font-size: 16px;
         line-height: 28px;
         color: #000;
         border-radius: 10px;
@@ -652,7 +645,6 @@
         width: 145px;
         height: 53px;
         font-weight: 500;
-        font-size: 16px;
         line-height: 19px;
         border-radius: 10px;
         background-color: #7297ef;
