@@ -285,10 +285,6 @@
         padding-top: 50px;
     }
 
-    .top-news {
-
-    }
-
     .news-grid {
         display: flex;
         flex-wrap: wrap;
@@ -595,12 +591,12 @@
     }
 
     .sidebar-ad-img-link {
-        display: flex;
+        border-radius: 15px;
     }
 
     .sidebar-ad-img {
         width: 393px;
-        border-radius: 15px;
+
     }
 
 
@@ -916,10 +912,21 @@
 
             .layout-2-1-sidebar {
                 width: 100%;
+                padding-top: 15px;
+                margin-left: 0;
             }
 
             .article-card-horizantal {
                 align-items: center;
+            }
+
+            .sidebar-ad {
+                margin-top: 15px;
+            }
+
+            .sidebar-ad-img {
+                width: 100%;
+                border-radius: 15px;
             }
         }
 
