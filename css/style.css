@@ -769,7 +769,6 @@
         margin-top: 100px;
         background-color: #7297ef;
         color: #fff;
-        display: none;
     }
 
     .site-footer-logo-box {
@@ -928,6 +927,15 @@
                 width: 100%;
                 border-radius: 15px;
             }
+
+            .site-footer {
+                margin-top: 40px;
+            }
+
+            .site-footer-about {
+                margin-right: 100px;
+            }
+
         }
 
         @media only screen and (max-width: 650px) {
@@ -940,6 +948,17 @@
                 margin-left: 0;
                 margin-bottom: 10px;
             }
+
+            .site-footer-about-links {
+                display: block;
+            }
+
+            .site-footer-about {
+                width: 100%;
+                margin-right: 0;
+                margin-bottom: 15px;
+            }
+
         }
 
 
@@ -963,4 +982,32 @@
                 width: 100%;
                 margin-top: 15px;
             }
+            }
+
+            @media only screen and (max-width: 570px) {
+                .site-footer-socials {
+                    display: block;
+                    align-items: flex-start;
+                }
+
+                .site-footer-socials-heading {
+                    width: 100%;
+                    margin-bottom: 15px;
+                }
+
+                .site-footer-socials-item {
+                    margin-right: 0;
+                    margin-bottom: 10px;
+                }
+            }
+
+            @media only screen and (max-width: 400px) {
+                .site-footer-links-wrapper {
+                    display: block;
+                }
+
+                .site-footer-links {
+                    width: 100%;
+                    padding-right: 0;
+                }
             }
