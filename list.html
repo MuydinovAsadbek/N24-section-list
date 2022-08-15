@@ -11,7 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
   <!-- Styles -->
-  <link rel="stylesheet" href="./css/styles.min.css">
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -19,84 +19,82 @@
 
   <!-- Site header -->
   <header class="site-header">
-
-    <!-- Site header top -->
+    <!-- SITE-HEADER-TOP -->
     <div class="site-header-top">
-      <div class="header-top-container container ">
-        <!-- Header logo -->
-        <a class="site-header-logo" href="#">
-          <img src="../img/logo-blue.svg" alt="N24 logo" width="264" height="28">
-        </a>
+        <div class="header-top-container container ">
+            <!-- Header logo -->
+            <a class="site-header-logo-link" href="#">
+                <img class="site-header-logo" src="./img/logo-blue.svg" alt="N24 logo" width="264" height="28">
+            </a>
 
-        <!--Currency rates  -->
-        <div class="number-valyuta">
-          <ul class="currency-rates">
-            <li class="currency-rates-item">
-              <b class="currency-rates-type">$</b>
-              <span class="currency-rates-value">10137.2</span>
-            </li>
-            <li class="currency-rates-item">
-              <b class="currency-rates-type">P</b>
-              <span class="currency-rates-value">138.26</span>
-            </li>
-          </ul>
+            <!-- LOGO-STRING -->
+            <h2 class="logo-string">N24</h2>
+
+            <!--Currency rates  -->
+            <div class="number-valyuta">
+                <ul class="currency-rates">
+                    <li class="currency-rates-item">
+                        <b class="currency-rates-type">$</b>
+                        <span class="currency-rates-value">10137.2</span>
+                    </li>
+                    <li class="currency-rates-item">
+                        <b class="currency-rates-type">P</b>
+                        <span class="currency-rates-value">138.26</span>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- Search input -->
+            <form class="search-form" action="https://echo.htmlacademy.ru" method="GET">
+                <input class="search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск"
+                    required>
+            </form>
+
+            <!-- Lang Togle -->
+            <div class="lang-togle">
+                <a href="#" class="lang-togle-link lang-togle-link-active href=" #>Уз</a>
+                <a href="#" class="lang-togle-link" href="#">Ру</a>
+            </div>
+
+            <!-- Button-Войти -->
+            <a class="button main-link" href="#">Войти </a>
+
+        <!-- MENU-BTN -->
+            <button class="menu-btn js-opne-header" type="button"><img class="menu-hamburger" src="./img/hamburger-menu-i.svg" alt="hamburger menu icon"></button>
         </div>
-
-
-        <!-- Search input -->
-        <form class="search-form" action="https://echo.htmlacademy.ru" method="GET">
-          <input class="search-form-input" type="search" name="search" placeholder="Поиск" aria-label="Поиск" required>
-        </form>
-
-
-        <!-- Lang Togle -->
-        <span class="lang-togle">
-          <a class="lang-togle-link-active href=" #>Уз</a>
-          <a class="lang-togle-link" href="#">Ру</a>
-        </span>
-
-
-        <!-- Button -->
-        <a class="button main-link" href="contact.html">Войти </a>
-      </div>
     </div>
 
-    <!-- Site header menu -->
-    <div class=" container site-header-menu-container">
-      <ul class=" site-header-menu-item">
-        <li class="site-menu-list"> <a target="_blank" class="site-menu-link-frist" href="#">Главное</a>
-        </li>
-        <li class="site-menu-link"> <a target="_blank" class="site-menu-link" href="#">Интересное</a>
-        </li>
-        <li class="site-menu-link"> <a target="_blank" class="site-menu-link" href="#">Экономика</a>
-        </li>
-        <li class="site-menu-link"> <a target="_blank" class="site-menu-link" href="#">Политика</a>
-        </li>
-        <li class="site-menu-link"> <a target="_blank" class="site-menu-link" href="#">Общество</a>
-        </li>
-        <li class="site-menu-link"> <a target="_blank" class="site-menu-link" href="#">Технологии</a>
-        </li>
-        <li class="site-menu-link"> <a target="_blank" class="site-menu-link" href="#">Спорт</a>
-        </li>
-        <li class="site-menu-link"> <a target="_blank" class="site-menu-link" href="#">Культура</a>
-        </li>
-        <li class="site-menu-link"> <a target="_blank" class="site-menu-link" href="#">Происшествия</a>
-        </li>
-        <li class="site-menu-link"> <a target="_blank" class="site-menu-link" href="#">Наука</a>
-        </li>
-      </ul>
-    </div>
+    <!-- SITENAV -->
+        <nav class="sitenav container">
+        <ul class="site-header-list">
+            <li class="site-header-item"> <a class="site-menu-link" href="#">Главное</a></li>
+            <li class="site-header-item"> <a class="site-menu-link" href="#">Интересное</a></li>
+            <li class="site-header-item"> <a class="site-menu-link" href="#">Экономика</a></li>
+            <li class="site-header-item"> <a class="site-menu-link" href="#">Политика</a></li>
+            <li class="site-header-item"> <a class="site-menu-link" href="#">Общество</a></li>
+            <li class="site-header-item"> <a class="site-menu-link" href="#">Технологии</a></li>
+            <li class="site-header-item"> <a class="site-menu-link" href="#">Спорт</a></li>
+            <li class="site-header-item"> <a class="site-menu-link" href="#">Культура</a></li>
+            <li class="site-header-item"> <a class="site-menu-link" href="#">Происшествия</a></li>
+            <li class="site-header-item"> <a class="site-menu-link" href="#">Наука</a></li>
+        </ul>
+    </nav>
+
+    <!-- ASIDE -->
     <aside>
-      <div class="container header-banner-img">
-        <a class="header-banner-img-link" href="htts://olcha.uz"> <img class="shopme-img"
-            src="../img/shopme-banner-news-list.jpg" alt="shopme-banner-news-list-img" width="1200" height="128">
-        </a>
-      </div>
+        <div class="container header-banner-img">
+            <a class="header-banner-img-link" href="htts://olcha.uz"> <img class="shopme-img"
+                    src="img/shopme-banner-news-list.jpg" alt="shopme-banner-img" width="1200" height="128"></a>
+        </div>
     </aside>
-  </header>
+</div>
+</header>
 
-  <!-- Site main -->
-  <div class="main-articles">
+<!-- MAIN-CONTENT -->
+<main class="main-content">
+  <!-- SECTION-ARTICLES-->
+  <section class="main-articles">
     <div class="container">
 
       <!-- NEWS WORLD -->
@@ -109,7 +107,7 @@
             <!-- NEWS-LIST-ITEM -->
             <div class="news-list-item article-card-horizantal">
               <img class="article-card-horizantal-img" src="../img/parliamentary-palace.jpg" alt="parliamentary-palace img" width="210" height="165"
-                srcset="../img/parliamentary-palace.jpg 1x, ../img/parliamentary-palace.jpg@2x 2x">
+                srcset="../img/parliamentary-palace.jpg 1x, ../img/parliamentary-palace@2x.jpg 2x">
               <div class="article-card-horizantal-content">
                 <h3 class="article-card-horizantal-title">
                   <a class="article-card-horizantal-link" href="#">Отопление Ташкента на 30 лет переходит в управление французской Veolia</a>
@@ -119,7 +117,7 @@
                 <footer class="article-card-horizantal-footer">
                   <img class="article-card-horizantal-source-icon" src="../img/krasnaya-vesna.jpg"
                     alt="icon krasnaya-vesna" width="20" height="20"
-                    srcset="../img/krasnaya-vesna.jpg 1x, ../img/krasnaya-vesna.jpg@2x 2x">
+                    srcset="../img/krasnaya-vesna.jpg 1x, ../img/krasnaya-vesna@2x.jpg 2x">
                   <div class="article-card-horizantal-source-time">
                     <span class="article-card-horizantal-source">ИА Красная Весна 15:26</span>
                     <time datetime="2022-03-04T15:26"></time>
@@ -130,8 +128,8 @@
 
             <!-- NEWS-LIST-ITEM -->
             <div class="news-list-item article-card-horizantal">
-              <img class="article-card-horizantal-img" src="../img/apple-bulding.jpg" alt="apple-bulding img"
-                width="210" height="165" srcset="../img/apple-bulding.jpg 1x, ../img/apple-bulding.jpg@2x 2x">
+              <img class="article-card-horizantal-img" src="/img/apple-bulding.jpg" alt="apple-bulding img"
+                width="210" height="165" srcset="/img/apple-bulding.jpg 1x, /img/apple-bulding@2x.jpg 2x">
               <div class="article-card-horizantal-content">
                 <h3 class="article-card-horizantal-title">
                   <a class="article-card-horizantal-link" href="#">Пользователи жалуются на новую проблему iPhone 13, связанную с камерой</a>
@@ -140,7 +138,7 @@
                 </p>
                 <footer class="article-card-horizantal-footer">
                   <img class="article-card-horizantal-source-icon" src="../img/tass.jpg" alt="icon-tass" width="20"
-                    height="20" srcset="../img/tass.jpg 1x, ../img/tass.jpg@2x 2x">
+                    height="20" srcset="../img/tass.jpg 1x, ../img/tass@2x.jpg 2x">
                   <div class="article-card-horizantal-source-time">
                     <span class="article-card-horizantal-source">ТАСС 11:35</span>
                     <time datetime="2022-03-04T11:35"></time>
@@ -152,7 +150,7 @@
             <!-- NEWS-LIST-ITEM -->
             <div class="news-list-item article-card-horizantal">
               <img class="article-card-horizantal-img" src="../img/pubg-mobile.jpg" alt="pubg-mobile img" width="210" height="165"
-                srcset="../img/pubg-mobile.jpg 1x, ../img/pubg-mobile.jpg@2x 2x">
+                srcset="../img/pubg-mobile.jpg 1x, ../img/pubg-mobile@2x.jpg 2x">
               <div class="article-card-horizantal-content">
                 <h3 class="article-card-horizantal-title">
                   <a class="article-card-horizantal-link" href="#">Halo Infinite сравнили на Xbox One, Xbox One X, Xbox Series S и Xbox Series X</a>
@@ -161,7 +159,7 @@
                 </p>
                 <footer class="article-card-horizantal-footer">
                   <img class="article-card-horizantal-source-icon" src="../img/rbk.jpg" alt="icon-rbk" width="20"
-                    height="20" srcset="../img/rbk.jpg 1x, ../img/rbk.jpg@2x 2x">
+                    height="20" srcset="../img/rbk.jpg 1x, ../img/rbk@2x.jpg 2x">
                   <div class="article-card-horizantal-source-time">
                     <span class="article-card-horizantal-source">РБК Инвестиции 09:35</span>
                     <time datetime="2022-03-04T09:35"></time>
@@ -173,7 +171,7 @@
             <!-- NEWS-LIST-ITEM -->
             <div class="news-list-item article-card-horizantal">
               <img class="article-card-horizantal-img" src="../img/red-line-car.jpg" alt="red-line-car img" width="210" height="165"
-                srcset="../img/red-line-car.jpg 1x, ../img/red-line-car.jpg@2x 2x">
+                srcset="../img/red-line-car.jpg 1x, ../img/red-line-car@2x.jpg 2x">
               <div class="article-card-horizantal-content">
                 <h3 class="article-card-horizantal-title">
                   <a class="article-card-horizantal-link" href="#">В Узбекистане показали тюнинговые варианты моделей Lacetti, Cobalt, Nexia и Spark </a>
@@ -183,7 +181,7 @@
                 <footer class="article-card-horizantal-footer">
                   <img class="article-card-horizantal-source-icon" src="../img/krasnaya-vesna.jpg"
                     alt="icon krasnaya-vesna" width="20" height="20"
-                    srcset="../img/krasnaya-vesna.jpg 1x, ../img/krasnaya-vesna.jpg@2x 2x">
+                    srcset="../img/krasnaya-vesna.jpg 1x, ../img/krasnaya-vesna@2x.jpg 2x">
                   <div class="article-card-horizantal-source-time">
                     <span class="article-card-horizantal-source">ИА Красная Весна 12:25</span>
                     <time datetime="2022-03-04T12:25"></time>
@@ -195,7 +193,7 @@
             <!-- NEWS-LIST-ITEM -->
             <div class="news-list-item article-card-horizantal">
               <img class="article-card-horizantal-img" src="../img/iphone.jpg" alt="iphone13 img" width="210" height="165"
-                srcset="../img/iphone.jpg 1x, img/iphone.jpg@2x 2x">
+                srcset="../img/iphone.jpg 1x, img/iphone@2x.jpg 2x">
               <div class="article-card-horizantal-content">
                 <h3 class="article-card-horizantal-title">
                   <a class="article-card-horizantal-link" href="#">Время автономной работы iPhone 13 Pro Max стало рекордным для смартфонов Apple </a>
@@ -205,7 +203,7 @@
                 <footer class="article-card-horizantal-footer">
                   <img class="article-card-horizantal-source-icon" src="../img/solenka.png"
                     alt="icon krasnaya-vesna" width="20" height="20"
-                    srcset="../img/solenka.png 1x, ../img/solenka.png@2x 2x">
+                    srcset="../img/solenka.png 1x, ../img/solenka@2x.png 2x">
                   <div class="article-card-horizantal-source-time">
                     <span class="article-card-horizantal-source">Solenka.info 19:43</span>
                     <time datetime="2022-03-04T12:25"></time>
@@ -217,7 +215,7 @@
             <!-- NEWS-LIST-ITEM -->
             <div class="news-list-item article-card-horizantal">
               <img class="article-card-horizantal-img" src="../img/chine-flag.jpg" alt="chine-flag img" width="210" height="165"
-                srcset="../img/chine-flag.jpg 1x, ../img/chine-flag.jpg@2x 2x">
+                srcset="../img/chine-flag.jpg 1x, ../img/chine-flag@2x.jpg 2x">
               <div class="article-card-horizantal-content">
                 <h3 class="article-card-horizantal-title">
                   <a class="article-card-horizantal-link" href="#">Криптобиржа Huobi закрыла регистрацию пользователей из Китая </a>
@@ -227,7 +225,7 @@
                 <footer class="article-card-horizantal-footer">
                   <img class="article-card-horizantal-source-icon" src="../img/lenta.ru.jpg"
                     alt="icon krasnaya-vesna" width="20" height="20"
-                    srcset="../img/lenta.ru.jpg 1x, ../img/lenta.ru.jpg@2x 2x">
+                    srcset="../img/lenta.ru.jpg 1x, ../img/lenta.ru@2x.jpg 2x">
                   <div class="article-card-horizantal-source-time">
                     <span class="article-card-horizantal-source">Lenta.ru 10:54</span>
                     <time datetime="2022-03-04T12:25"></time>
@@ -239,7 +237,7 @@
             <!-- NEWS-LIST-ITEM -->
             <div class="news-list-item article-card-horizantal">
               <img class="article-card-horizantal-img" src="../img/business process@2x.jpg" alt="business process img" width="210" height="165"
-                srcset="../img/business process.jpg 1x, ../img/business process.jpg@2x 2x">
+                srcset="../img/business process.jpg 1x, ../img/business process@2x.jpg 2x">
               <div class="article-card-horizantal-content">
                 <h3 class="article-card-horizantal-title">
                   <a class="article-card-horizantal-link" href="#">В Узбекистане пройдет международный конкурс молодых кинематографистов «Кино за 5 дней» </a>
@@ -247,11 +245,11 @@
                 <p class="article-card-horizantal-text">В Узбекистане 22 сентября стартовал конкурс молодых кинематографистов «Кино за пять дней». Мероприятие проходит в рамках Ташкентского Международного...
                 </p>
                 <footer class="article-card-horizantal-footer">
-                  <img class="article-card-horizantal-source-icon" src="../img/digger.ru.jpg"
-                    alt="icon-digger.ru" width="20" height="20"
-                    srcset="../img/digger.ru.jpg 1x, ../img/digger.ru.jpg@2x 2x">
+                  <img class="article-card-horizantal-source-icon" src="../img/lenta.ru.jpg"
+                    alt="icon krasnaya-vesna" width="20" height="20"
+                    srcset="../img/lenta.ru.jpg 1x, ../img/lenta.ru@2x.jpg 2x">
                   <div class="article-card-horizantal-source-time">
-                    <span class="article-card-horizantal-source">Digger.ru 14:25</span>
+                    <span class="article-card-horizantal-source">Lenta.ru 14:25</span>
                     <time datetime="2022-03-04T12:25"></time>
                   </div>
                 </footer>
@@ -261,7 +259,7 @@
             <!-- NEWS-LIST-ITEM -->
             <div class="news-list-item article-card-horizantal">
               <img class="article-card-horizantal-img" src="../img/new-cars.jpg" alt="business process img" width="210" height="165"
-                srcset="../img/business process.jpg 1x, ../img/business process.jpg@2x 2x">
+                srcset="../img/business process.jpg 1x, ../img/business process@2x.jpg 2x">
               <div class="article-card-horizantal-content">
                 <h3 class="article-card-horizantal-title">
                   <a class="article-card-horizantal-link" href="#">Илон Маск принял участие во Всемирной сетевой конференции в Китае </a>
@@ -271,7 +269,7 @@
                 <footer class="article-card-horizantal-footer">
                   <img class="article-card-horizantal-source-icon" src="../img/gazeta.ru.jpg"
                     alt="icon-gazeta.ru" width="20" height="20"
-                    srcset="../img/gazeta.ru.jpg 1x, ../img/gazeta.ru.jpg@2x 2x">
+                    srcset="../img/gazeta.ru.jpg 1x, ../img/gazeta.ru@2x.jpg 2x">
                   <div class="article-card-horizantal-source-time">
                     <span class="article-card-horizantal-source">Газета.Ru 12:54</span>
                     <time datetime="2022-03-04T12:25"></time>
@@ -345,15 +343,14 @@
         <!-- ASIDE -->
         <aside class="sidebar-ad-item sidebar-ad">
           <a class="sidebar-ad-img-link" href="">
-            <img class="sidebar-ad-img" src="../img/olmosresidence.jpg" alt="hous-img" width="393" height="553" srcset="../img/olmosresidence.jpg 1x, ../img/olmosresidence.jpg@2x 2x">
+            <img class="sidebar-ad-img" src="../img/olmosresidence.jpg" alt="hous-img" width="393" height="553" srcset="../img/olmosresidence.jpg 1x, ../img/olmosresidence@2x.jpg 2x">
           </a>
         </aside>
       </div>
-
     </div>
-
   </div>
-  </div>
+  </section>
+</main>
 
   <!-- SITE-FOOTER -->
   <footer class="site-footer">
@@ -374,7 +371,7 @@
               <a class="site-footer-link" href="#">Информация о сайте</a>
             </li>
             <li class="site-footer-links-item">
-              <a class="site-footer-link" href="#">Напишите нам</a>
+              <a class="site-footer-link" href="contact.html">Напишите нам</a>
             </li>
             <li class="site-footer-links-item">
               <a class="site-footer-link" href="#">Реклама</a>
@@ -430,7 +427,7 @@
       </div>
     </div>
   </footer>
-
+<script src="/js/app.js"></script>
 </body>
 
 </html>
